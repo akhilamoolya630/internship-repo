@@ -1,0 +1,664 @@
+<%- include('header') %>
+
+<!-- Hero Section with Background Slider -->
+<section class="hero-section" id="home">
+  <!-- Background Image Slider -->
+  <div class="hero-bg-slider">
+    <div class="hero-bg-slide active" style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1920&h=1080&fit=crop');"></div>
+    <div class="hero-bg-slide" style="background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&h=1080&fit=crop');"></div>
+    <div class="hero-bg-slide" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&h=1080&fit=crop');"></div>
+    <div class="hero-bg-slide" style="background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920&h=1080&fit=crop');"></div>
+  </div>
+  
+  <!-- Overlay -->
+  <div class="hero-overlay"></div>
+  
+  <!-- Particle Canvas -->
+  <canvas id="particleCanvas" class="particle-canvas"></canvas>
+  
+  <div class="hero-container">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-check-circle"></i>
+        <span>IT Solutions Designed for Your Success</span>
+      </div>
+      <h1>Master  <span class="highlight-text">Software Engineering Interviews</span> <span class="text-white"></span></h1>
+      <p>Comprehensive learning paths for DSA, System Design, Low Level Design, and Behavioral interviews</p>
+      <div class="hero-buttons">
+        <button class="btn btn-primary">Get Started <i class="fas fa-arrow-right"></i></button>
+        <button class="btn btn-secondary">Read More <i class="fas fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="about-section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-images">
+        <div class="about-main-image">
+          <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=600&h=700&fit=crop" alt="IT Professional">
+        </div>
+        <div class="about-secondary-image">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&h=600&fit=crop" alt="IT Professional Woman">
+        </div>
+      </div>
+      
+      <div class="about-content">
+        <h2>Unlock Your Business <span class="highlight-text">Potential</span> with Our best Cutting-Edge <span class="text-primary">IT Solutions</span> to grow</h2>
+        <p class="about-description">Transform your business with our innovative IT solutions, tailored to address your unique challenges and drive growth in today's digital landscape.</p>
+        
+        <div class="about-features">
+          <div class="feature-item">
+            <i class="fas fa-check-circle"></i>
+            <div class="feature-text">
+              <h4>Customized Solutions for Every Business</h4>
+            </div>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-check-circle"></i>
+            <div class="feature-text">
+              <h4>Scalable Infrastructure for Growth</h4>
+            </div>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-check-circle"></i>
+            <div class="feature-text">
+              <h4>Enhanced Security and Data Protection</h4>
+            </div>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-check-circle"></i>
+            <div class="feature-text">
+              <h4>Continuous system monitoring and expert support</h4>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-cta">
+          <div class="contact-info">
+            <i class="fas fa-phone-alt"></i>
+            <div class="contact-text">
+              <span class="contact-label">Call Us For Inquiry</span>
+              <span class="contact-number">00 (123) 456767</span>
+            </div>
+          </div>
+          <button class="btn btn-primary">Learn More <i class="fas fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Courses Section -->
+<section class="section" id="courses">
+  <div class="container">
+    <div class="section-header">
+      <h2>Featured Courses</h2>
+      <p>Start learning with our most popular courses</p>
+    </div>
+    
+    <div class="courses-grid">
+      <div class="course-card">
+        <div class="course-image">
+          <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=400&h=250&fit=crop" alt="DSA Course">
+          <span class="course-badge">Bestseller</span>
+        </div>
+        <div class="course-body">
+          <h3 class="course-title">DSA Patterns Mastery</h3>
+          <p class="course-instructor">By Ashish Pratap Singh</p>
+          <div class="course-rating">
+            <span class="rating-stars">★★★★★</span>
+            <span class="rating-number">4.9</span>
+            <span class="rating-count">(12,543)</span>
+          </div>
+          <div class="course-footer">
+            <span class="course-price">
+              <span class="price-current">$49.99</span>
+              <span class="price-original">$129.99</span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-image">
+          <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=250&fit=crop" alt="System Design">
+          <span class="course-badge hot">Hot</span>
+        </div>
+        <div class="course-body">
+          <h3 class="course-title">System Design Fundamentals</h3>
+          <p class="course-instructor">By Industry Experts</p>
+          <div class="course-rating">
+            <span class="rating-stars">★★★★★</span>
+            <span class="rating-number">4.8</span>
+            <span class="rating-count">(8,921)</span>
+          </div>
+          <div class="course-footer">
+            <span class="course-price">
+              <span class="price-current">$59.99</span>
+              <span class="price-original">$149.99</span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-image">
+          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=250&fit=crop" alt="System Design Interview">
+          <span class="course-badge">Popular</span>
+        </div>
+        <div class="course-body">
+          <h3 class="course-title">System Design Interviews</h3>
+          <p class="course-instructor">By Senior Engineers</p>
+          <div class="course-rating">
+            <span class="rating-stars">★★★★★</span>
+            <span class="rating-number">4.9</span>
+            <span class="rating-count">(15,234)</span>
+          </div>
+          <div class="course-footer">
+            <span class="course-price">
+              <span class="price-current">$54.99</span>
+              <span class="price-original">$139.99</span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-image">
+          <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=400&h=250&fit=crop" alt="Low Level Design">
+        </div>
+        <div class="course-body">
+          <h3 class="course-title">Low-Level Design Interviews</h3>
+          <p class="course-instructor">By Tech Leads</p>
+          <div class="course-rating">
+            <span class="rating-stars">★★★★★</span>
+            <span class="rating-number">4.7</span>
+            <span class="rating-count">(6,789)</span>
+          </div>
+          <div class="course-footer">
+            <span class="course-price">
+              <span class="price-current">$44.99</span>
+              <span class="price-original">$119.99</span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-image">
+          <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=400&h=250&fit=crop" alt="Behavioral Interviews">
+          <span class="course-badge new">New</span>
+        </div>
+        <div class="course-body">
+          <h3 class="course-title">Behavioral Interviews Guide</h3>
+          <p class="course-instructor">By HR Professionals</p>
+          <div class="course-rating">
+            <span class="rating-stars">★★★★★</span>
+            <span class="rating-number">4.8</span>
+            <span class="rating-count">(4,567)</span>
+          </div>
+          <div class="course-footer">
+            <span class="course-price">
+              <span class="price-current">$39.99</span>
+              <span class="price-original">$99.99</span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-image">
+          <img src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?w=400&h=250&fit=crop" alt="Engineering Blogs">
+        </div>
+        <div class="course-body">
+          <h3 class="course-title">Engineering Blogs Curation</h3>
+          <p class="course-instructor">By Aionyx Team</p>
+          <div class="course-rating">
+            <span class="rating-stars">★★★★★</span>
+            <span class="rating-number">4.9</span>
+            <span class="rating-count">(3,456)</span>
+          </div>
+          <div class="course-footer">
+            <span class="course-price">
+              <span class="price-current">Free</span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-image">
+          <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=250&fit=crop" alt="Coding Patterns">
+        </div>
+        <div class="course-body">
+          <h3 class="course-title">15 Coding Patterns</h3>
+          <p class="course-instructor">By Ashish Pratap Singh</p>
+          <div class="course-rating">
+            <span class="rating-stars">★★★★★</span>
+            <span class="rating-number">5.0</span>
+            <span class="rating-count">(9,876)</span>
+          </div>
+          <div class="course-footer">
+            <span class="course-price">
+              <span class="price-current">$34.99</span>
+              <span class="price-original">$89.99</span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-image">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=250&fit=crop" alt="Mock Interviews">
+        </div>
+        <div class="course-body">
+          <h3 class="course-title">Mock Interview Practice</h3>
+          <p class="course-instructor">By Interview Coaches</p>
+          <div class="course-rating">
+            <span class="rating-stars">★★★★★</span>
+            <span class="rating-number">4.8</span>
+            <span class="rating-count">(5,432)</span>
+          </div>
+          <div class="course-footer">
+            <span class="course-price">
+              <span class="price-current">$79.99</span>
+              <span class="price-original">$199.99</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Categories Section -->
+<section class="section categories-section" id="specializations">
+  <div class="container">
+    <div class="section-header">
+      <h2>Top Categories</h2>
+      <p>Browse courses by category and start your learning journey</p>
+    </div>
+    
+    <div class="categories-grid">
+      <a href="#" class="category-card">
+        <span class="category-number">01</span>
+        <div class="category-icon-wrapper">
+          <div class="category-icon">
+            <i class="fas fa-code"></i>
+          </div>
+        </div>
+        <h3>Data Structures</h3>
+        <p>Master arrays, linked lists, trees, graphs and hash tables with comprehensive problem sets</p>
+      </a>
+      
+      <a href="#" class="category-card">
+        <span class="category-number">02</span>
+        <div class="category-icon-wrapper">
+          <div class="category-icon">
+            <i class="fas fa-sitemap"></i>
+          </div>
+        </div>
+        <h3>System Design</h3>
+        <p>Learn to design scalable distributed systems and understand real-world architecture patterns</p>
+      </a>
+      
+      <a href="#" class="category-card">
+        <span class="category-number">03</span>
+        <div class="category-icon-wrapper">
+          <div class="category-icon">
+            <i class="fas fa-project-diagram"></i>
+          </div>
+        </div>
+        <h3>Algorithm Patterns</h3>
+        <p>Recognize and apply common algorithmic patterns to solve complex coding problems efficiently</p>
+      </a>
+      
+      <a href="#" class="category-card">
+        <span class="category-number">04</span>
+        <div class="category-icon-wrapper">
+          <div class="category-icon">
+            <i class="fas fa-comments"></i>
+          </div>
+        </div>
+        <h3>Behavioral Interviews</h3>
+        <p>Prepare compelling stories using the STAR method to ace your behavioral interview rounds</p>
+      </a>
+      
+      <a href="#" class="category-card">
+        <span class="category-number">05</span>
+        <div class="category-icon-wrapper">
+          <div class="category-icon">
+            <i class="fas fa-puzzle-piece"></i>
+          </div>
+        </div>
+        <h3>Design Patterns</h3>
+        <p>Understand essential software design patterns and best practices for clean, maintainable code</p>
+      </a>
+      
+      <a href="#" class="category-card">
+        <span class="category-number">06</span>
+        <div class="category-icon-wrapper">
+          <div class="category-icon">
+            <i class="fas fa-database"></i>
+          </div>
+        </div>
+        <h3>Database Design</h3>
+        <p>Learn database modeling, normalization, indexing strategies and query optimization techniques</p>
+      </a>
+
+      <a href="#" class="category-card">
+        <span class="category-number">07</span>
+        <div class="category-icon-wrapper">
+          <div class="category-icon">
+            <i class="fas fa-cogs"></i>
+          </div>
+        </div>
+        <h3>Low-Level Design</h3>
+        <p>Master object-oriented design principles, UML diagrams and practical design challenges</p>
+      </a>
+
+      <a href="#" class="category-card">
+        <span class="category-number">08</span>
+        <div class="category-icon-wrapper">
+          <div class="category-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+        </div>
+        <h3>Dynamic Programming</h3>
+        <p>Break down complex problems into optimal subproblems using dynamic programming techniques</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section with Carousel -->
+<section class="section testimonials-section hero-bg" id="testimonials">
+  <div class="container">
+    <div class="section-header">
+      <h2>What Our Users Say</h2>
+      <p>Hear from developers who transformed their careers with Aionyx</p>
+    </div>
+    
+    <div class="testimonials-carousel-wrapper">
+      <button class="testimonial-nav-btn prev" onclick="moveTestimonialCarousel(-1)">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      
+      <div class="testimonials-carousel-container">
+        <div class="testimonials-carousel-track" id="testimonialsCarouselTrack">
+          <div class="testimonial-box">
+            <div class="testimonial-rating">★★★★★</div>
+            <p class="testimonial-text">"Ashish was the best DSA and System Design interviewer I've worked with. I thank him and his platform for helping me break into Meta."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">DB</div>
+              <div class="author-info">
+                <h4>Daniel Ball</h4>
+                <p>SWE @ Meta</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-box">
+            <div class="testimonial-rating">★★★★★</div>
+            <p class="testimonial-text">"Aionyx's curated list of questions helped me brush up on my DSA concepts very quickly. The structured approach and well-selected problems made my preparation much more efficient and played a key role in helping me secure an offer from Amazon."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">DSG</div>
+              <div class="author-info">
+                <h4>Dhanushkumar S G</h4>
+                <p>SDE @ Amazon</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-box">
+            <div class="testimonial-rating">★★★★★</div>
+            <p class="testimonial-text">"I had studied DSA, but when it came time to switch, I realized the importance of HLD/LLD. While there's plenty of content available on DSA, quality resources for System Design are relatively scarce. That's when I discovered Aionyx. His clear and structured explanations helped me immensely—and with his guidance, I was able to crack Google and Amazon."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">AM</div>
+              <div class="author-info">
+                <h4>Arka Mazumder</h4>
+                <p>SWE-III @ Google</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-box">
+            <div class="testimonial-rating">★★★★★</div>
+            <p class="testimonial-text">"Aionyx has everything in one place — problem lists, patterns, solutions, newsletters, system design courses, everything you need to crack any company. Keep it simple. Use as few tools as possible to streamline your practice. Especially if you're in an early-career to mid-level role — Aionyx is more than enough."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">MV</div>
+              <div class="author-info">
+                <h4>Madhan Vadlamudi</h4>
+                <p>Software Engineer III</p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="testimonial-box">
+            <div class="testimonial-rating">★★★★★</div>
+            <p class="testimonial-text">"Aionyx turns DSA & system design prep into clear, practical lessons. The pattern-based approach and explanations are top-tier and interview-focused. I recommend it to my mentees and will keep pointing people here."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">PTB</div>
+              <div class="author-info">
+                <h4>Pranoy Tez Boddu</h4>
+                <p>SWE II @ Microsoft</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-box">
+            <div class="testimonial-rating">★★★★★</div>
+            <p class="testimonial-text">"I've been curating software engineering content for more than 2 years now and the Aionyx blog is the one I keep including in my digest. Clear, important, visualized system design topics to help you pass your next interview or grow deeper in your role."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">AZ</div>
+              <div class="author-info">
+                <h4>Alexandre Zajac</h4>
+                <p>SDE II @ Amazon</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <button class="testimonial-nav-btn next" onclick="moveTestimonialCarousel(1)">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Meet the Creator Section -->
+<section class="creator-section-compact">
+  <div class="creator-container-compact">
+    <div class="creator-image-wrapper-compact">
+      <div class="creator-image-compact">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop" alt="Ashish Pratap Singh">
+      </div>
+    </div>
+    <div class="creator-content-compact">
+      <h2>Meet the Creator</h2>
+      <h3>Ashish Pratap Singh</h3>
+      <p>Hi! I'm a software engineer passionate about helping others excel in coding interviews and level up their Software Engineering career.</p>
+      <p>After solving 1000s of coding problems across multiple platforms and going through countless technical interviews myself, I created Aionyx.io to help make the learning process more systematic and enjoyable for everyone.</p>
+      <div class="creator-social-links">
+        <a href="https://www.linkedin.com/company/algomaster-io" target="_blank" rel="noopener noreferrer" class="social-link">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/AlgoMaster-io" target="_blank" rel="noopener noreferrer" class="social-link">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq-section" id="faq">
+  <div class="faq-container">
+    <div class="section-header">
+      <h2>Frequently Asked Questions</h2>
+      <p>Find answers to common questions about Aionyx</p>
+    </div>
+    
+    <div class="faq-grid">
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <span>What is Aionyx.io?</span>
+          <i class="fas fa-chevron-down faq-icon"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Aionyx.io is a comprehensive learning platform designed to help software engineers prepare for technical interviews. We offer structured courses on Data Structures & Algorithms, System Design, Low-Level Design, and Behavioral Interviews. Our pattern-based approach helps you understand the underlying concepts rather than just memorizing solutions.</p>
+        </div>
+      </div>
+      
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <span>What is Aionyx Newsletter?</span>
+          <i class="fas fa-chevron-down faq-icon"></i>
+        </button>
+        <div class="faq-answer">
+          <p>The Aionyx Newsletter is a weekly publication where we share in-depth articles on coding patterns, system design concepts, interview tips, and industry best practices. Our 125K+ subscribers receive curated content that helps them stay updated with the latest trends in software engineering and interview preparation.</p>
+        </div>
+      </div>
+      
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <span>How do I access the premium content?</span>
+          <i class="fas fa-chevron-down faq-icon"></i>
+        </button>
+        <div class="faq-answer">
+          <p>To access premium content, simply create an account and choose a subscription plan that works best for you. We offer monthly and annual plans with full access to all courses, practice problems, system design case studies, and exclusive community features. You can cancel anytime with no long-term commitment.</p>
+        </div>
+      </div>
+      
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <span>How do I cancel my premium subscription?</span>
+          <i class="fas fa-chevron-down faq-icon"></i>
+        </button>
+        <div class="faq-answer">
+          <p>You can cancel your subscription anytime from your account settings. Simply navigate to Settings > Subscription > Cancel Subscription. Your access will continue until the end of your current billing period. No questions asked, and you can always resubscribe later if you change your mind.</p>
+        </div>
+      </div>
+      
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <span>Do you offer refunds?</span>
+          <i class="fas fa-chevron-down faq-icon"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Yes! We offer a 30-day money-back guarantee. If you're not satisfied with Aionyx within the first 30 days of your subscription, contact our support team at support@aionyx.io, and we'll process a full refund. We want to ensure you're completely happy with your learning experience.</p>
+        </div>
+      </div>
+      
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <span>How is Aionyx.io different from other coding platforms?</span>
+          <i class="fas fa-chevron-down faq-icon"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Aionyx.io focuses on pattern recognition and systematic learning rather than random problem-solving. We group problems by underlying patterns, provide comprehensive system design courses, and offer real interview questions from top tech companies. Our community-driven approach and personalized learning paths set us apart from traditional coding platforms.</p>
+        </div>
+      </div>
+      
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <span>How often is new content added?</span>
+          <i class="fas fa-chevron-down faq-icon"></i>
+        </button>
+        <div class="faq-answer">
+          <p>We add new content every week! This includes new practice problems, updated system design case studies, fresh interview questions, and articles in our newsletter. We also regularly update existing content based on industry trends and community feedback to ensure you're always learning the most relevant material.</p>
+        </div>
+      </div>
+      
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <span>Can I use Aionyx.io on mobile devices?</span>
+          <i class="fas fa-chevron-down faq-icon"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Absolutely! Aionyx.io is fully responsive and works seamlessly on all devices including smartphones, tablets, and desktops. You can learn on-the-go, practice problems during your commute, or review system design concepts anywhere. Our mobile experience is optimized for easy navigation and comfortable reading.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Us Section -->
+<section class="contact-section" id="contact">
+  <div class="container">
+    <div class="section-header">
+      <h2>Get In Touch</h2>
+      <p>Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+    </div>
+    
+    <div class="contact-grid">
+      <!-- Contact Info Cards -->
+      <div class="contact-info-cards">
+        <div class="contact-info-card">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Visit Us</h4>
+            <p>123 Tech Street<br>San Francisco, CA 94102<br>United States</p>
+          </div>
+        </div>
+        
+        <div class="contact-info-card">
+          <div class="contact-icon">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Call Us</h4>
+            <p>+1 (555) 123-4567<br>Mon-Fri: 9AM - 6PM PST</p>
+          </div>
+        </div>
+        
+        <div class="contact-info-card">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Email Us</h4>
+            <p>support@aionyx.io<br>info@aionyx.io</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Contact Form -->
+      <div class="contact-form-wrapper">
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="contact-name">Full Name</label>
+            <input type="text" id="contact-name" name="name" placeholder="Enter your full name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="contact-email">Email Address</label>
+            <input type="email" id="contact-email" name="email" placeholder="Enter your email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="contact-subject">Subject</label>
+            <input type="text" id="contact-subject" name="subject" placeholder="What is this about?" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" rows="6" placeholder="Tell us more about your inquiry..." required></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary btn-full">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%- include('footer') %>

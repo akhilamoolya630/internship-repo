@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-left">
+        <a href="/" class="logo">
+          <i class="fas fa-graduation-cap"></i>
+          <span>AIONYX</span>
+        </a>
+        
+        <div class="nav-menu">
+          <a href="#home" class="nav-link">
+            <i class="fas fa-home"></i> Home
+          </a>
+          <a href="#about" class="nav-link">
+            <i class="fas fa-info-circle"></i> About Us
+          </a>
+          <a href="#courses" class="nav-link">
+            <i class="fas fa-book"></i> Courses
+          </a>
+          <a href="#specializations" class="nav-link">
+            <i class="fas fa-layer-group"></i> Stacks
+          </a>
+          <a href="#testimonials" class="nav-link">
+            <i class="fas fa-quote-left"></i> Testimonial
+          </a>
+          <a href="#contact" class="nav-link">
+            <i class="fas fa-envelope"></i> Contact
+          </a>
+          <a href="#faq" class="nav-link">
+            <i class="fas fa-question-circle"></i> FAQ
+          </a>
+        </div>
+      </div>
+      
+      <div class="nav-right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fas fa-moon" id="themeIcon"></i>
+        </button>
+        <a href="/login" class="btn-my-learning">
+          <i class="fas fa-book-reader"></i> My Learning
+        </a>
+        <a href="/login" class="btn-login-right">
+          <i class="fas fa-sign-in-alt"></i> Login
+        </a>
+      </div>
+
+      <!-- Mobile Menu Toggle -->
+      <button class="mobile-menu-btn" id="mobileMenuBtn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home" class="mobile-link">
+      <i class="fas fa-home"></i> Home
+    </a>
+    <a href="#about" class="mobile-link">
+      <i class="fas fa-info-circle"></i> About Us
+    </a>
+    <a href="#courses" class="mobile-link">
+      <i class="fas fa-book"></i> Courses
+    </a>
+    <a href="#specializations" class="mobile-link">
+      <i class="fas fa-layer-group"></i> Stacks
+    </a>
+    <a href="#testimonials" class="mobile-link">
+      <i class="fas fa-quote-left"></i> Testimonial
+    </a>
+    <a href="#contact" class="mobile-link">
+      <i class="fas fa-envelope"></i> Contact
+    </a>
+    <a href="#faq" class="mobile-link">
+      <i class="fas fa-question-circle"></i> FAQ
+    </a>
+    <a href="/login" class="mobile-link">
+      <i class="fas fa-book-reader"></i> My Learning
+    </a>
+    <a href="/login" class="mobile-link">
+      <i class="fas fa-sign-in-alt"></i> Login
+    </a>
+  </div>
